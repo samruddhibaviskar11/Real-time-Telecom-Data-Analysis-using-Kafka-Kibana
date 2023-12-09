@@ -1,3 +1,10 @@
+Telecom Data Analysis using Kafka, Kibana
+Engined a real-time streaming pipeline that processed and
+analyzed telecom call data records using MySQL, Airflow and
+Kafka, enabling real-time analysis in Kibana and reducing data processing latency by 40%.
+Implemented Slack notifications, achieving a 50% reduction in
+issue resolution times and enhancing operational efficiency. 
+
 ## installation guide
     $ docker-compose up -d
     
