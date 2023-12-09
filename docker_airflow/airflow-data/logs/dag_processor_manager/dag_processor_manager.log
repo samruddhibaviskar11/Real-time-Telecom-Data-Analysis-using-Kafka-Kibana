@@ -1,0 +1,819 @@
+[2022-02-08 02:35:56,036] {dag_processing.py:590} INFO - Processing files using up to 2 processes at a time 
+[2022-02-08 02:35:56,059] {dag_processing.py:591} INFO - Process each file at most once every 30 seconds
+[2022-02-08 02:35:56,061] {dag_processing.py:593} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2022-02-08 02:35:56,062] {dag_processing.py:731} INFO - Searching for files in /opt/airflow/dags
+[2022-02-08 02:35:56,162] {dag_processing.py:734} INFO - There are 1 files in /opt/airflow/dags
+[2022-02-08 02:37:31,184] {dag_processing.py:590} INFO - Processing files using up to 2 processes at a time 
+[2022-02-08 02:37:31,185] {dag_processing.py:591} INFO - Process each file at most once every 30 seconds
+[2022-02-08 02:37:31,186] {dag_processing.py:593} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2022-02-08 02:37:31,186] {dag_processing.py:731} INFO - Searching for files in /opt/airflow/dags
+[2022-02-08 02:37:31,218] {dag_processing.py:734} INFO - There are 1 files in /opt/airflow/dags
+[2022-02-08 02:37:31,243] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 02:37:31,244] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:32:31.244689+00:00
+[2022-02-08 02:37:31,263] {dag_processing.py:838} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/geanrate_data.py     26  0.02s             0           0
+================================================================================
+[2022-02-08 02:37:41,871] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 02:37:41,871] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:32:41.871810+00:00
+[2022-02-08 02:37:52,172] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 02:37:52,301] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:32:52.301668+00:00
+[2022-02-08 02:38:01,551] {dag_processing.py:838} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/geanrate_data.py     26  30.31s            0           0
+================================================================================
+[2022-02-08 02:38:02,603] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 02:38:02,604] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:33:02.604429+00:00
+[2022-02-08 02:38:13,216] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 02:38:13,217] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:33:13.217177+00:00
+[2022-02-08 02:38:23,240] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 02:38:23,240] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:33:23.240863+00:00
+[2022-02-08 02:38:31,765] {dag_processing.py:838} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/geanrate_data.py                           0           1  37.97s          2022-02-08T02:38:09
+================================================================================
+[2022-02-08 02:38:33,311] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 02:38:33,312] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:33:33.312492+00:00
+[2022-02-08 02:38:43,717] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 02:38:43,769] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:33:43.769588+00:00
+[2022-02-08 02:38:54,416] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 02:38:54,538] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:33:54.537965+00:00
+[2022-02-08 02:39:02,586] {dag_processing.py:838} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/geanrate_data.py     27  23.12s            0           1  37.97s          2022-02-08T02:38:09
+================================================================================
+[2022-02-08 02:39:04,590] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 02:39:04,591] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:34:04.591699+00:00
+[2022-02-08 02:39:14,685] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 02:39:14,685] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:34:14.685805+00:00
+[2022-02-08 02:39:24,759] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 02:39:24,759] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:34:24.759934+00:00
+[2022-02-08 02:39:32,889] {dag_processing.py:838} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/geanrate_data.py                           1           0  31.69s          2022-02-08T02:39:11
+================================================================================
+[2022-02-08 02:39:34,893] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 02:39:34,894] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:34:34.894500+00:00
+[2022-02-08 02:39:44,914] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 02:39:44,914] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:34:44.914817+00:00
+[2022-02-08 02:39:55,450] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 02:39:55,451] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:34:55.451029+00:00
+[2022-02-08 02:40:02,944] {dag_processing.py:838} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/geanrate_data.py                           1           0  4.36s           2022-02-08T02:39:45
+================================================================================
+[2022-02-08 02:40:05,510] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 02:40:05,511] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:35:05.511101+00:00
+[2022-02-08 02:40:15,533] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 02:40:15,534] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:35:15.534638+00:00
+[2022-02-08 02:40:25,576] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 02:40:25,577] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:35:25.577631+00:00
+[2022-02-08 02:40:33,404] {dag_processing.py:838} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/geanrate_data.py     29  17.20s            1           0  4.36s           2022-02-08T02:39:45
+================================================================================
+[2022-02-08 02:40:36,434] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 02:40:36,435] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:35:36.435323+00:00
+[2022-02-08 02:40:46,475] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 02:40:46,475] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:35:46.475944+00:00
+[2022-02-08 02:40:56,503] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 02:40:56,503] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:35:56.503875+00:00
+[2022-02-08 02:41:03,523] {dag_processing.py:838} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/geanrate_data.py                           1           0  20.35s          2022-02-08T02:40:36
+================================================================================
+[2022-02-08 02:41:06,528] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 02:41:06,529] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:36:06.528969+00:00
+[2022-02-08 02:41:16,555] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 02:41:16,556] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:36:16.556202+00:00
+[2022-02-08 02:41:26,580] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 02:41:26,581] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:36:26.581192+00:00
+[2022-02-08 02:41:33,602] {dag_processing.py:838} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/geanrate_data.py                           1           0  21.34s          2022-02-08T02:41:27
+================================================================================
+[2022-02-08 02:41:36,608] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 02:41:36,609] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:36:36.609425+00:00
+[2022-02-08 02:41:46,633] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 02:41:46,633] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:36:46.633447+00:00
+[2022-02-08 02:41:56,658] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 02:41:56,658] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:36:56.658741+00:00
+[2022-02-08 02:42:03,680] {dag_processing.py:838} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/geanrate_data.py     31  5.77s             1           0  21.34s          2022-02-08T02:41:27
+================================================================================
+[2022-02-08 02:42:06,687] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 02:42:06,688] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:37:06.688339+00:00
+[2022-02-08 02:42:16,941] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 02:42:16,941] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:37:16.941670+00:00
+[2022-02-08 02:42:26,965] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 02:42:26,965] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:37:26.965789+00:00
+[2022-02-08 02:42:31,977] {dag_processing.py:731} INFO - Searching for files in /opt/airflow/dags
+[2022-02-08 02:42:32,019] {dag_processing.py:734} INFO - There are 1 files in /opt/airflow/dags
+[2022-02-08 02:42:34,032] {dag_processing.py:838} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/geanrate_data.py                           1           0  10.03s          2022-02-08T02:42:07
+================================================================================
+[2022-02-08 02:42:37,038] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 02:42:37,038] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:37:37.038784+00:00
+[2022-02-08 02:42:47,065] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 02:42:47,066] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:37:47.066248+00:00
+[2022-02-08 02:42:57,085] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 02:42:57,085] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:37:57.085893+00:00
+[2022-02-08 02:43:04,097] {dag_processing.py:838} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/geanrate_data.py                           1           0  11.90s          2022-02-08T02:42:49
+================================================================================
+[2022-02-08 02:43:07,101] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 02:43:07,102] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:38:07.102150+00:00
+[2022-02-08 02:43:17,117] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 02:43:17,117] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:38:17.117875+00:00
+[2022-02-08 02:43:27,134] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 02:43:27,135] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:38:27.135050+00:00
+[2022-02-08 02:43:34,290] {dag_processing.py:838} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/geanrate_data.py                           1           0  11.48s          2022-02-08T02:43:31
+================================================================================
+[2022-02-08 02:43:37,297] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 02:43:37,298] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:38:37.298364+00:00
+[2022-02-08 02:43:47,322] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 02:43:47,323] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:38:47.323331+00:00
+[2022-02-08 02:43:57,348] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 02:43:57,348] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:38:57.348752+00:00
+[2022-02-08 02:44:04,369] {dag_processing.py:838} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/geanrate_data.py     34  2.85s             1           0  11.48s          2022-02-08T02:43:31
+================================================================================
+[2022-02-08 02:44:07,376] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 02:44:07,377] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:39:07.377300+00:00
+[2022-02-08 02:44:17,404] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 02:44:17,461] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:39:17.461907+00:00
+[2022-02-08 02:44:27,558] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 02:44:27,559] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:39:27.559180+00:00
+[2022-02-08 02:44:34,601] {dag_processing.py:838} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/geanrate_data.py                           1           0  19.42s          2022-02-08T02:44:20
+================================================================================
+[2022-02-08 02:44:37,606] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 02:44:37,607] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:39:37.607131+00:00
+[2022-02-08 02:44:47,632] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 02:44:47,632] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:39:47.632691+00:00
+[2022-02-08 02:44:57,657] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 02:44:57,658] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:39:57.658103+00:00
+[2022-02-08 02:45:04,679] {dag_processing.py:838} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/geanrate_data.py     35  13.70s            1           0  19.42s          2022-02-08T02:44:20
+================================================================================
+[2022-02-08 02:45:07,686] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 02:45:07,686] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:40:07.686961+00:00
+[2022-02-08 02:45:18,082] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 02:45:18,108] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:40:18.108672+00:00
+[2022-02-08 02:45:28,229] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 02:45:28,230] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:40:28.230404+00:00
+[2022-02-08 02:45:35,253] {dag_processing.py:838} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/geanrate_data.py                           1           0  26.37s          2022-02-08T02:45:17
+================================================================================
+[2022-02-08 02:45:38,260] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 02:45:38,261] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:40:38.261091+00:00
+[2022-02-08 02:45:48,345] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 02:45:48,347] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:40:48.347241+00:00
+[2022-02-08 02:45:58,401] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 02:45:58,403] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:40:58.403446+00:00
+[2022-02-08 02:46:05,431] {dag_processing.py:838} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/geanrate_data.py     36  18.04s            1           0  26.37s          2022-02-08T02:45:17
+================================================================================
+[2022-02-08 02:46:08,440] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 02:46:08,448] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:41:08.447486+00:00
+[2022-02-08 02:46:18,676] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 02:46:18,681] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:41:18.681268+00:00
+[2022-02-08 02:46:28,766] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 02:46:28,770] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:41:28.770021+00:00
+[2022-02-08 02:46:35,466] {dag_processing.py:838} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/geanrate_data.py                           0           1  33.99s          2022-02-08T02:46:21
+================================================================================
+[2022-02-08 02:46:38,794] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 02:46:38,796] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:41:38.796037+00:00
+[2022-02-08 02:46:48,918] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 02:46:48,919] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:41:48.919905+00:00
+[2022-02-08 02:46:59,645] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 02:46:59,646] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:41:59.646802+00:00
+[2022-02-08 02:47:05,688] {dag_processing.py:838} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/geanrate_data.py     37  13.64s            0           1  33.99s          2022-02-08T02:46:21
+================================================================================
+[2022-02-08 02:47:09,742] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 02:47:09,743] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:42:09.743429+00:00
+[2022-02-08 02:47:20,114] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 02:47:20,370] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:42:20.370468+00:00
+[2022-02-08 02:47:31,780] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 02:47:31,781] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:42:31.781007+00:00
+[2022-02-08 02:47:32,787] {dag_processing.py:731} INFO - Searching for files in /opt/airflow/dags
+[2022-02-08 02:47:32,827] {dag_processing.py:734} INFO - There are 1 files in /opt/airflow/dags
+[2022-02-08 02:47:36,293] {dag_processing.py:838} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/geanrate_data.py                           0           1  42.23s          2022-02-08T02:47:34
+================================================================================
+[2022-02-08 02:47:42,303] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 02:47:42,304] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:42:42.304359+00:00
+[2022-02-08 02:47:52,325] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 02:47:52,326] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:42:52.326319+00:00
+[2022-02-08 02:48:02,346] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 02:48:02,446] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:43:02.446100+00:00
+[2022-02-08 02:48:06,872] {dag_processing.py:838} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/geanrate_data.py     38  2.24s             0           1  42.23s          2022-02-08T02:47:34
+================================================================================
+[2022-02-08 02:48:14,401] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 02:48:14,628] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:43:14.628659+00:00
+[2022-02-08 02:48:25,701] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 02:48:25,701] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:43:25.701706+00:00
+[2022-02-08 02:48:35,720] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 02:48:35,721] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:43:35.721783+00:00
+[2022-02-08 02:48:37,735] {dag_processing.py:838} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/geanrate_data.py     38  33.11s            0           1  42.23s          2022-02-08T02:47:34
+================================================================================
+[2022-02-08 02:48:45,832] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 02:48:46,019] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:43:46.019730+00:00
+[2022-02-08 02:48:56,435] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 02:48:56,435] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:43:56.435526+00:00
+[2022-02-08 02:49:06,458] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 02:49:06,458] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:44:06.458807+00:00
+[2022-02-08 02:49:08,470] {dag_processing.py:838} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/geanrate_data.py                           0           1  46.85s          2022-02-08T02:48:51
+================================================================================
+[2022-02-08 02:49:16,489] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 02:49:16,490] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:44:16.490865+00:00
+[2022-02-08 02:49:26,688] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 02:49:26,688] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:44:26.688818+00:00
+[2022-02-08 02:49:36,714] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 02:49:36,714] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:44:36.714765+00:00
+[2022-02-08 02:49:38,763] {dag_processing.py:838} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/geanrate_data.py     39  17.20s            0           1  46.85s          2022-02-08T02:48:51
+================================================================================
+[2022-02-08 02:49:47,445] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 02:49:48,532] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:44:48.532890+00:00
+[2022-02-08 02:50:01,213] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 02:50:01,228] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:45:01.228495+00:00
+[2022-02-08 02:50:08,884] {dag_processing.py:838} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/geanrate_data.py                           1           0  44.94s          2022-02-08T02:50:06
+================================================================================
+[2022-02-08 02:50:13,891] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 02:50:13,892] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:45:13.892092+00:00
+[2022-02-08 02:50:23,908] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 02:50:23,909] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:45:23.909213+00:00
+[2022-02-08 02:50:33,926] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 02:50:34,204] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:45:34.204910+00:00
+[2022-02-08 02:50:39,229] {dag_processing.py:838} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/geanrate_data.py     40  2.71s             1           0  44.94s          2022-02-08T02:50:06
+================================================================================
+[2022-02-08 02:50:44,464] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 02:50:44,465] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:45:44.465034+00:00
+[2022-02-08 02:50:54,708] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 02:50:54,709] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:45:54.709785+00:00
+[2022-02-08 02:51:05,657] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 02:51:05,657] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:46:05.657853+00:00
+[2022-02-08 02:51:09,671] {dag_processing.py:838} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/geanrate_data.py     40  33.16s            1           0  44.94s          2022-02-08T02:50:06
+================================================================================
+[2022-02-08 02:51:15,683] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 02:51:15,683] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:46:15.683689+00:00
+[2022-02-08 02:51:25,707] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 02:51:25,708] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:46:25.708128+00:00
+[2022-02-08 02:51:35,732] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 02:51:35,733] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:46:35.733237+00:00
+[2022-02-08 02:51:39,903] {dag_processing.py:838} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/geanrate_data.py                           0           1  33.52s          2022-02-08T02:51:10
+================================================================================
+[2022-02-08 02:51:46,246] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 02:51:46,402] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:46:46.402040+00:00
+[2022-02-08 02:51:57,535] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 02:51:57,536] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:46:57.536215+00:00
+[2022-02-08 02:52:08,054] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 02:52:08,055] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:47:08.055324+00:00
+[2022-02-08 02:52:10,734] {dag_processing.py:838} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/geanrate_data.py     41  30.55s            0           1  33.52s          2022-02-08T02:51:10
+================================================================================
+[2022-02-08 02:52:18,749] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 02:52:18,750] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:47:18.750034+00:00
+[2022-02-08 02:52:30,304] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 02:52:30,304] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:47:30.304862+00:00
+[2022-02-08 02:52:33,331] {dag_processing.py:731} INFO - Searching for files in /opt/airflow/dags
+[2022-02-08 02:52:33,464] {dag_processing.py:734} INFO - There are 1 files in /opt/airflow/dags
+[2022-02-08 02:52:40,647] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 02:52:40,654] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:47:40.654707+00:00
+[2022-02-08 02:52:41,664] {dag_processing.py:838} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/geanrate_data.py                           0           1  36.21s          2022-02-08T02:52:16
+================================================================================
+[2022-02-08 02:52:51,613] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 02:52:51,614] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:47:51.613990+00:00
+[2022-02-08 02:53:01,965] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 02:53:01,966] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:48:01.966411+00:00
+[2022-02-08 02:53:11,988] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 02:53:11,988] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:48:11.988922+00:00
+[2022-02-08 02:53:11,994] {dag_processing.py:838} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/geanrate_data.py     42  24.99s            0           1  36.21s          2022-02-08T02:52:16
+================================================================================
+[2022-02-08 02:53:22,009] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 02:53:22,009] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:48:22.009943+00:00
+[2022-02-08 02:53:32,025] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 02:53:32,036] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:48:32.036447+00:00
+[2022-02-08 02:53:42,316] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 02:53:42,316] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:48:42.316590+00:00
+[2022-02-08 02:53:42,467] {dag_processing.py:838} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/geanrate_data.py                           1           0  29.69s          2022-02-08T02:53:16
+================================================================================
+[2022-02-08 02:53:52,746] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 02:53:52,747] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:48:52.747065+00:00
+[2022-02-08 02:54:03,144] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 02:54:03,243] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:49:03.242068+00:00
+[2022-02-08 02:54:13,406] {dag_processing.py:838} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/geanrate_data.py     43  26.30s            1           0  29.69s          2022-02-08T02:53:16
+================================================================================
+[2022-02-08 02:54:13,418] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 02:54:13,419] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:49:13.419374+00:00
+[2022-02-08 02:54:24,021] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 02:54:24,022] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:49:24.022546+00:00
+[2022-02-08 02:54:34,107] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 02:54:34,267] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:49:34.267014+00:00
+[2022-02-08 02:54:44,149] {dag_processing.py:838} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/geanrate_data.py                           0           1  42.99s          2022-02-08T02:54:30
+================================================================================
+[2022-02-08 02:54:45,433] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 02:54:45,597] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:49:45.597189+00:00
+[2022-02-08 02:54:56,308] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 02:54:56,308] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:49:56.308833+00:00
+[2022-02-08 02:55:06,508] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 02:55:06,509] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:50:06.509454+00:00
+[2022-02-08 02:55:14,530] {dag_processing.py:838} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/geanrate_data.py     44  14.05s            0           1  42.99s          2022-02-08T02:54:30
+================================================================================
+[2022-02-08 02:55:16,534] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 02:55:16,535] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:50:16.535420+00:00
+[2022-02-08 02:55:27,038] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 02:55:27,039] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:50:27.039030+00:00
+[2022-02-08 02:55:37,063] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 02:55:37,064] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:50:37.064139+00:00
+[2022-02-08 02:55:45,089] {dag_processing.py:838} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/geanrate_data.py                           1           0  29.61s          2022-02-08T02:55:30
+================================================================================
+[2022-02-08 02:55:47,093] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 02:55:47,094] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:50:47.094458+00:00
+[2022-02-08 02:55:57,121] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 02:55:57,190] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:50:57.190390+00:00
+[2022-02-08 02:56:07,910] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 02:56:08,107] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:51:08.107539+00:00
+[2022-02-08 02:56:16,025] {dag_processing.py:838} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/geanrate_data.py     45  15.51s            1           0  29.61s          2022-02-08T02:55:30
+================================================================================
+[2022-02-08 02:56:18,740] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 02:56:18,770] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:51:18.770855+00:00
+[2022-02-08 02:56:34,098] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 02:56:34,100] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:51:34.100284+00:00
+[2022-02-08 02:56:44,323] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 02:56:44,324] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:51:44.324550+00:00
+[2022-02-08 02:56:46,468] {dag_processing.py:838} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/geanrate_data.py                           0           1  39.18s          2022-02-08T02:56:39
+================================================================================
+[2022-02-08 02:56:54,381] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 02:56:54,438] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:51:54.438920+00:00
+[2022-02-08 02:57:04,498] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 02:57:04,499] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:52:04.499444+00:00
+[2022-02-08 02:57:14,601] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 02:57:14,602] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:52:14.602156+00:00
+[2022-02-08 02:57:17,615] {dag_processing.py:838} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/geanrate_data.py     46  7.10s             0           1  39.18s          2022-02-08T02:56:39
+================================================================================
+[2022-02-08 02:57:24,630] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 02:57:24,630] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:52:24.630624+00:00
+[2022-02-08 02:57:33,641] {dag_processing.py:731} INFO - Searching for files in /opt/airflow/dags
+[2022-02-08 02:57:33,681] {dag_processing.py:734} INFO - There are 1 files in /opt/airflow/dags
+[2022-02-08 02:57:36,123] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 02:57:36,123] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:52:36.123946+00:00
+[2022-02-08 02:57:46,513] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 02:57:46,518] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:52:46.518123+00:00
+[2022-02-08 02:57:47,738] {dag_processing.py:838} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/geanrate_data.py                           1           0  29.12s          2022-02-08T02:57:39
+================================================================================
+[2022-02-08 02:57:56,756] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 02:57:56,756] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:52:56.756564+00:00
+[2022-02-08 02:58:06,777] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 02:58:06,851] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:53:06.851448+00:00
+[2022-02-08 02:58:17,540] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 02:58:17,962] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:53:17.962430+00:00
+[2022-02-08 02:58:18,371] {dag_processing.py:838} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/geanrate_data.py     47  8.40s             1           0  29.12s          2022-02-08T02:57:39
+================================================================================
+[2022-02-08 02:58:28,889] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 02:58:28,983] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:53:28.983506+00:00
+[2022-02-08 02:58:42,760] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 02:58:42,761] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:53:42.761154+00:00
+[2022-02-08 02:58:48,383] {dag_processing.py:838} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/geanrate_data.py     47  38.46s            1           0  29.12s          2022-02-08T02:57:39
+================================================================================
+[2022-02-08 02:58:53,065] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 02:58:53,461] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:53:53.430253+00:00
+[2022-02-08 02:59:05,306] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 02:59:05,307] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:54:05.307653+00:00
+[2022-02-08 02:59:15,328] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 02:59:15,329] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:54:15.329563+00:00
+[2022-02-08 02:59:19,340] {dag_processing.py:838} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/geanrate_data.py                           0           1  41.05s          2022-02-08T02:58:50
+================================================================================
+[2022-02-08 02:59:25,366] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 02:59:25,367] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:54:25.367584+00:00
+[2022-02-08 02:59:35,402] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 02:59:35,406] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:54:35.406788+00:00
+[2022-02-08 02:59:45,510] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 02:59:45,516] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:54:45.516752+00:00
+[2022-02-08 02:59:49,597] {dag_processing.py:838} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/geanrate_data.py     48  28.25s            0           1  41.05s          2022-02-08T02:58:50
+================================================================================
+[2022-02-08 03:00:00,541] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 03:00:00,695] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:55:00.695040+00:00
+[2022-02-08 03:00:10,969] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 03:00:11,005] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:55:11.005601+00:00
+[2022-02-08 03:00:20,790] {dag_processing.py:838} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/geanrate_data.py                           0           1  39.56s          2022-02-08T03:00:00
+================================================================================
+[2022-02-08 03:00:23,370] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 03:00:23,387] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:55:23.387686+00:00
+[2022-02-08 03:00:39,182] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 03:00:39,183] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:55:39.183533+00:00
+[2022-02-08 03:00:49,265] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 03:00:49,268] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:55:49.268144+00:00
+[2022-02-08 03:00:51,436] {dag_processing.py:838} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/geanrate_data.py     49  20.40s            0           1  39.56s          2022-02-08T03:00:00
+================================================================================
+[2022-02-08 03:00:59,451] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 03:00:59,451] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:55:59.451536+00:00
+[2022-02-08 03:01:09,634] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 03:01:09,647] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:56:09.647529+00:00
+[2022-02-08 03:01:19,746] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 03:01:19,747] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:56:19.747343+00:00
+[2022-02-08 03:01:21,757] {dag_processing.py:838} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/geanrate_data.py                           0           1  35.78s          2022-02-08T03:01:06
+================================================================================
+[2022-02-08 03:01:29,886] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 03:01:29,887] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:56:29.887038+00:00
+[2022-02-08 03:01:39,971] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 03:01:39,972] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:56:39.972654+00:00
+[2022-02-08 03:01:50,011] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 03:01:50,011] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:56:50.011950+00:00
+[2022-02-08 03:01:52,020] {dag_processing.py:838} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/geanrate_data.py                           1           0  13.18s          2022-02-08T03:01:50
+================================================================================
+[2022-02-08 03:02:00,329] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 03:02:00,329] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:57:00.329838+00:00
+[2022-02-08 03:02:10,733] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 03:02:10,733] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:57:10.733780+00:00
+[2022-02-08 03:02:20,810] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 03:02:20,811] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:57:20.810978+00:00
+[2022-02-08 03:02:22,824] {dag_processing.py:838} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/geanrate_data.py     51  2.01s             1           0  13.18s          2022-02-08T03:01:50
+================================================================================
+[2022-02-08 03:02:30,834] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 03:02:30,834] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:57:30.834896+00:00
+[2022-02-08 03:02:33,764] {dag_processing.py:731} INFO - Searching for files in /opt/airflow/dags
+[2022-02-08 03:02:33,796] {dag_processing.py:734} INFO - There are 1 files in /opt/airflow/dags
+[2022-02-08 03:02:40,861] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 03:02:40,865] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:57:40.865086+00:00
+[2022-02-08 03:02:51,013] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 03:02:51,014] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:57:51.014605+00:00
+[2022-02-08 03:02:53,023] {dag_processing.py:838} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/geanrate_data.py                           1           0  3.93s           2022-02-08T03:02:24
+================================================================================
+[2022-02-08 03:03:01,044] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 03:03:01,045] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:58:01.045100+00:00
+[2022-02-08 03:03:11,071] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 03:03:11,072] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:58:11.072002+00:00
+[2022-02-08 03:03:21,096] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 03:03:21,097] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:58:21.097039+00:00
+[2022-02-08 03:03:23,105] {dag_processing.py:838} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/geanrate_data.py                           1           0  1.22s           2022-02-08T03:02:56
+================================================================================
+[2022-02-08 03:03:31,292] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 03:03:31,293] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:58:31.293334+00:00
+[2022-02-08 03:03:41,322] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 03:03:41,322] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:58:41.322745+00:00
+[2022-02-08 03:03:51,343] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 03:03:51,343] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:58:51.343687+00:00
+[2022-02-08 03:03:53,351] {dag_processing.py:838} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/geanrate_data.py                           1           0  2.48s           2022-02-08T03:03:28
+================================================================================
+[2022-02-08 03:04:01,365] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 03:04:01,365] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:59:01.365958+00:00
+[2022-02-08 03:04:11,391] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 03:04:11,391] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:59:11.391850+00:00
+[2022-02-08 03:04:21,832] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 03:04:21,832] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:59:21.832704+00:00
+[2022-02-08 03:04:23,840] {dag_processing.py:838} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/geanrate_data.py                           1           0  15.48s          2022-02-08T03:04:14
+================================================================================
+[2022-02-08 03:04:31,853] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 03:04:31,854] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:59:31.854114+00:00
+[2022-02-08 03:04:41,871] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 03:04:41,936] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:59:41.936848+00:00
+[2022-02-08 03:04:51,954] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 03:04:52,156] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 02:59:52.156820+00:00
+[2022-02-08 03:04:54,169] {dag_processing.py:838} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/geanrate_data.py     55  9.68s             1           0  15.48s          2022-02-08T03:04:14
+================================================================================
+[2022-02-08 03:05:02,184] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 03:05:02,185] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 03:00:02.185375+00:00
+[2022-02-08 03:05:12,531] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 03:05:12,534] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 03:00:12.534184+00:00
+[2022-02-08 03:05:23,768] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 03:05:23,769] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 03:00:23.769228+00:00
+[2022-02-08 03:05:24,776] {dag_processing.py:838} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/geanrate_data.py                           0           1  37.28s          2022-02-08T03:05:21
+================================================================================
+[2022-02-08 03:05:33,794] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 03:05:33,814] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 03:00:33.814409+00:00
+[2022-02-08 03:05:43,845] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 03:05:43,897] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 03:00:43.897003+00:00
+[2022-02-08 03:05:53,936] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 03:05:53,937] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 03:00:53.937500+00:00
+[2022-02-08 03:05:55,000] {dag_processing.py:838} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/geanrate_data.py     56  3.03s             0           1  37.28s          2022-02-08T03:05:21
+================================================================================
+[2022-02-08 03:06:04,018] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 03:06:04,018] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 03:01:04.018652+00:00
+[2022-02-08 03:06:14,042] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 03:06:14,043] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 03:01:14.043411+00:00
+[2022-02-08 03:06:24,069] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-08 03:06:24,070] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2022-02-08 03:01:24.070524+00:00
+[2022-02-08 03:06:25,077] {dag_processing.py:838} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/geanrate_data.py                           1           0  22.88s          2022-02-08T03:06:14
+================================================================================
+[2022-02-08 03:06:32,151] {dag_processing.py:571} INFO - Exiting gracefully upon receiving signal 15

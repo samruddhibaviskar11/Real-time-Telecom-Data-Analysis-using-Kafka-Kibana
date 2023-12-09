@@ -1,0 +1,528 @@
+[2022-02-08 02:37:31,364] {scheduler_job.py:182} INFO - Started process (PID=26) to work on /opt/airflow/dags/geanrate_data.py
+[2022-02-08 02:37:31,366] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/geanrate_data.py for tasks to queue
+[2022-02-08 02:37:31,366] {logging_mixin.py:104} INFO - [2022-02-08 02:37:31,366] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/geanrate_data.py
+[2022-02-08 02:38:05,715] {logging_mixin.py:104} INFO - [2022-02-08 02:38:05,715] {timeout.py:36} ERROR - Process timed out, PID: 26
+[2022-02-08 02:38:07,003] {logging_mixin.py:104} INFO - [2022-02-08 02:38:05,790] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/geanrate_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/geanrate_data.py", line 8, in <module>
+    import pandas as pd
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/__init__.py", line 177, in <module>
+    import pandas.testing
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/testing.py", line 5, in <module>
+    from pandas._testing import (
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/timeout.py", line 37, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /opt/airflow/dags/geanrate_data.py after 30.0s, PID: 26
+[2022-02-08 02:38:07,010] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/geanrate_data.py
+[2022-02-08 02:38:09,200] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/geanrate_data.py took 37.839 seconds
+[2022-02-08 02:38:43,614] {scheduler_job.py:182} INFO - Started process (PID=27) to work on /opt/airflow/dags/geanrate_data.py
+[2022-02-08 02:38:44,041] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/geanrate_data.py for tasks to queue
+[2022-02-08 02:38:44,076] {logging_mixin.py:104} INFO - [2022-02-08 02:38:44,076] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/geanrate_data.py
+[2022-02-08 02:39:07,624] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2022-02-08 02:39:09,279] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['generate_data']) retrieved from /opt/airflow/dags/geanrate_data.py
+[2022-02-08 02:39:09,367] {logging_mixin.py:104} INFO - [2022-02-08 02:39:09,367] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-02-08 02:39:09,375] {logging_mixin.py:104} INFO - [2022-02-08 02:39:09,375] {dag.py:1837} INFO - Creating ORM DAG for generate_data
+[2022-02-08 02:39:09,964] {logging_mixin.py:104} INFO - [2022-02-08 02:39:09,964] {dag.py:2273} INFO - Setting next_dagrun for generate_data to 2022-02-07 00:00:00+00:00
+[2022-02-08 02:39:10,834] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/geanrate_data.py took 29.838 seconds
+[2022-02-08 02:39:41,446] {scheduler_job.py:182} INFO - Started process (PID=28) to work on /opt/airflow/dags/geanrate_data.py
+[2022-02-08 02:39:41,448] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/geanrate_data.py for tasks to queue
+[2022-02-08 02:39:41,449] {logging_mixin.py:104} INFO - [2022-02-08 02:39:41,449] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/geanrate_data.py
+[2022-02-08 02:39:45,603] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2022-02-08 02:39:45,614] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['generate_data']) retrieved from /opt/airflow/dags/geanrate_data.py
+[2022-02-08 02:39:45,657] {logging_mixin.py:104} INFO - [2022-02-08 02:39:45,657] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-02-08 02:39:45,696] {logging_mixin.py:104} INFO - [2022-02-08 02:39:45,696] {dag.py:2273} INFO - Setting next_dagrun for generate_data to 2022-02-07 00:00:00+00:00
+[2022-02-08 02:39:45,773] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/geanrate_data.py took 4.330 seconds
+[2022-02-08 02:40:16,750] {scheduler_job.py:182} INFO - Started process (PID=29) to work on /opt/airflow/dags/geanrate_data.py
+[2022-02-08 02:40:16,829] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/geanrate_data.py for tasks to queue
+[2022-02-08 02:40:16,830] {logging_mixin.py:104} INFO - [2022-02-08 02:40:16,830] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/geanrate_data.py
+[2022-02-08 02:40:33,623] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2022-02-08 02:40:35,779] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['generate_data']) retrieved from /opt/airflow/dags/geanrate_data.py
+[2022-02-08 02:40:36,162] {logging_mixin.py:104} INFO - [2022-02-08 02:40:36,162] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-02-08 02:40:36,387] {logging_mixin.py:104} INFO - [2022-02-08 02:40:36,387] {dag.py:2273} INFO - Setting next_dagrun for generate_data to 2022-02-07 00:00:00+00:00
+[2022-02-08 02:40:36,485] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/geanrate_data.py took 19.929 seconds
+[2022-02-08 02:41:06,554] {scheduler_job.py:182} INFO - Started process (PID=30) to work on /opt/airflow/dags/geanrate_data.py
+[2022-02-08 02:41:06,556] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/geanrate_data.py for tasks to queue
+[2022-02-08 02:41:06,556] {logging_mixin.py:104} INFO - [2022-02-08 02:41:06,556] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/geanrate_data.py
+[2022-02-08 02:41:25,586] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2022-02-08 02:41:26,775] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['generate_data']) retrieved from /opt/airflow/dags/geanrate_data.py
+[2022-02-08 02:41:27,601] {logging_mixin.py:104} INFO - [2022-02-08 02:41:27,601] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-02-08 02:41:27,756] {logging_mixin.py:104} INFO - [2022-02-08 02:41:27,756] {dag.py:2273} INFO - Setting next_dagrun for generate_data to 2022-02-07 00:00:00+00:00
+[2022-02-08 02:41:27,863] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/geanrate_data.py took 21.313 seconds
+[2022-02-08 02:41:57,926] {scheduler_job.py:182} INFO - Started process (PID=31) to work on /opt/airflow/dags/geanrate_data.py
+[2022-02-08 02:41:57,928] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/geanrate_data.py for tasks to queue
+[2022-02-08 02:41:57,929] {logging_mixin.py:104} INFO - [2022-02-08 02:41:57,929] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/geanrate_data.py
+[2022-02-08 02:42:04,653] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2022-02-08 02:42:04,995] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['generate_data']) retrieved from /opt/airflow/dags/geanrate_data.py
+[2022-02-08 02:42:07,797] {logging_mixin.py:104} INFO - [2022-02-08 02:42:07,797] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-02-08 02:42:07,817] {logging_mixin.py:104} INFO - [2022-02-08 02:42:07,817] {dag.py:2273} INFO - Setting next_dagrun for generate_data to 2022-02-07 00:00:00+00:00
+[2022-02-08 02:42:07,933] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/geanrate_data.py took 10.010 seconds
+[2022-02-08 02:42:38,065] {scheduler_job.py:182} INFO - Started process (PID=32) to work on /opt/airflow/dags/geanrate_data.py
+[2022-02-08 02:42:38,066] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/geanrate_data.py for tasks to queue
+[2022-02-08 02:42:38,067] {logging_mixin.py:104} INFO - [2022-02-08 02:42:38,067] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/geanrate_data.py
+[2022-02-08 02:42:49,568] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2022-02-08 02:42:49,823] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['generate_data']) retrieved from /opt/airflow/dags/geanrate_data.py
+[2022-02-08 02:42:49,844] {logging_mixin.py:104} INFO - [2022-02-08 02:42:49,844] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-02-08 02:42:49,865] {logging_mixin.py:104} INFO - [2022-02-08 02:42:49,865] {dag.py:2273} INFO - Setting next_dagrun for generate_data to 2022-02-07 00:00:00+00:00
+[2022-02-08 02:42:49,935] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/geanrate_data.py took 11.875 seconds
+[2022-02-08 02:43:20,182] {scheduler_job.py:182} INFO - Started process (PID=33) to work on /opt/airflow/dags/geanrate_data.py
+[2022-02-08 02:43:20,183] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/geanrate_data.py for tasks to queue
+[2022-02-08 02:43:20,184] {logging_mixin.py:104} INFO - [2022-02-08 02:43:20,184] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/geanrate_data.py
+[2022-02-08 02:43:27,580] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2022-02-08 02:43:28,713] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['generate_data']) retrieved from /opt/airflow/dags/geanrate_data.py
+[2022-02-08 02:43:31,165] {logging_mixin.py:104} INFO - [2022-02-08 02:43:31,165] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-02-08 02:43:31,291] {logging_mixin.py:104} INFO - [2022-02-08 02:43:31,291] {dag.py:2273} INFO - Setting next_dagrun for generate_data to 2022-02-07 00:00:00+00:00
+[2022-02-08 02:43:31,477] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/geanrate_data.py took 11.334 seconds
+[2022-02-08 02:44:01,547] {scheduler_job.py:182} INFO - Started process (PID=34) to work on /opt/airflow/dags/geanrate_data.py
+[2022-02-08 02:44:01,548] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/geanrate_data.py for tasks to queue
+[2022-02-08 02:44:01,549] {logging_mixin.py:104} INFO - [2022-02-08 02:44:01,549] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/geanrate_data.py
+[2022-02-08 02:44:15,335] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2022-02-08 02:44:17,829] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['generate_data']) retrieved from /opt/airflow/dags/geanrate_data.py
+[2022-02-08 02:44:20,708] {logging_mixin.py:104} INFO - [2022-02-08 02:44:20,708] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-02-08 02:44:20,811] {logging_mixin.py:104} INFO - [2022-02-08 02:44:20,811] {dag.py:2273} INFO - Setting next_dagrun for generate_data to 2022-02-07 00:00:00+00:00
+[2022-02-08 02:44:20,932] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/geanrate_data.py took 19.397 seconds
+[2022-02-08 02:44:51,036] {scheduler_job.py:182} INFO - Started process (PID=35) to work on /opt/airflow/dags/geanrate_data.py
+[2022-02-08 02:44:51,038] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/geanrate_data.py for tasks to queue
+[2022-02-08 02:44:51,039] {logging_mixin.py:104} INFO - [2022-02-08 02:44:51,039] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/geanrate_data.py
+[2022-02-08 02:45:15,796] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2022-02-08 02:45:17,083] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['generate_data']) retrieved from /opt/airflow/dags/geanrate_data.py
+[2022-02-08 02:45:17,214] {logging_mixin.py:104} INFO - [2022-02-08 02:45:17,214] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-02-08 02:45:17,238] {logging_mixin.py:104} INFO - [2022-02-08 02:45:17,237] {dag.py:2273} INFO - Setting next_dagrun for generate_data to 2022-02-07 00:00:00+00:00
+[2022-02-08 02:45:17,336] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/geanrate_data.py took 26.323 seconds
+[2022-02-08 02:45:47,540] {scheduler_job.py:182} INFO - Started process (PID=36) to work on /opt/airflow/dags/geanrate_data.py
+[2022-02-08 02:45:47,547] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/geanrate_data.py for tasks to queue
+[2022-02-08 02:45:47,550] {logging_mixin.py:104} INFO - [2022-02-08 02:45:47,550] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/geanrate_data.py
+[2022-02-08 02:46:17,862] {logging_mixin.py:104} INFO - [2022-02-08 02:46:17,860] {timeout.py:36} ERROR - Process timed out, PID: 36
+[2022-02-08 02:46:20,318] {logging_mixin.py:104} INFO - [2022-02-08 02:46:17,866] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/geanrate_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/geanrate_data.py", line 8, in <module>
+    import pandas as pd
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/__init__.py", line 52, in <module>
+    from pandas.core.api import (
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/core/api.py", line 29, in <module>
+    from pandas.core.groupby import Grouper, NamedAgg
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/core/groupby/__init__.py", line 1, in <module>
+    from pandas.core.groupby.generic import DataFrameGroupBy, NamedAgg, SeriesGroupBy
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/core/groupby/generic.py", line 69, in <module>
+    from pandas.core.groupby.groupby import (
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/core/groupby/groupby.py", line 38, in <module>
+    import pandas._libs.groupby as libgroupby
+  File "<frozen importlib._bootstrap>", line 416, in parent
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/timeout.py", line 37, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /opt/airflow/dags/geanrate_data.py after 30.0s, PID: 36
+[2022-02-08 02:46:20,562] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/geanrate_data.py
+[2022-02-08 02:46:21,147] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/geanrate_data.py took 33.630 seconds
+[2022-02-08 02:46:52,695] {scheduler_job.py:182} INFO - Started process (PID=37) to work on /opt/airflow/dags/geanrate_data.py
+[2022-02-08 02:46:52,700] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/geanrate_data.py for tasks to queue
+[2022-02-08 02:46:52,702] {logging_mixin.py:104} INFO - [2022-02-08 02:46:52,702] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/geanrate_data.py
+[2022-02-08 02:47:24,062] {logging_mixin.py:104} INFO - [2022-02-08 02:47:24,061] {timeout.py:36} ERROR - Process timed out, PID: 37
+[2022-02-08 02:47:32,456] {logging_mixin.py:104} INFO - [2022-02-08 02:47:24,229] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/geanrate_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/geanrate_data.py", line 68, in <module>
+    dag=dag
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py", line 89, in __call__
+    obj: BaseOperator = type.__call__(cls, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py", line 94, in wrapper
+    result = func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 98, in __init__
+    stacklevel=2,
+  File "/usr/local/lib/python3.6/warnings.py", line 99, in _showwarnmsg
+    msg.file, msg.line)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/settings.py", line 112, in custom_show_warning
+    from rich.markup import escape
+  File "/home/airflow/.local/lib/python3.6/site-packages/rich/markup.py", line 6, in <module>
+    from .text import Span, Text
+  File "/home/airflow/.local/lib/python3.6/site-packages/rich/text.py", line 22, in <module>
+    from .align import AlignValues
+  File "/home/airflow/.local/lib/python3.6/site-packages/rich/align.py", line 4, in <module>
+    from .constrain import Constrain
+  File "/home/airflow/.local/lib/python3.6/site-packages/rich/constrain.py", line 3, in <module>
+    from .jupyter import JupyterMixin
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 764, in get_code
+  File "<frozen importlib._bootstrap_external>", line 833, in get_data
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/timeout.py", line 37, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /opt/airflow/dags/geanrate_data.py after 30.0s, PID: 37
+[2022-02-08 02:47:32,626] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/geanrate_data.py
+[2022-02-08 02:47:34,260] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/geanrate_data.py took 41.573 seconds
+[2022-02-08 02:48:04,749] {scheduler_job.py:182} INFO - Started process (PID=38) to work on /opt/airflow/dags/geanrate_data.py
+[2022-02-08 02:48:04,750] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/geanrate_data.py for tasks to queue
+[2022-02-08 02:48:04,751] {logging_mixin.py:104} INFO - [2022-02-08 02:48:04,751] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/geanrate_data.py
+[2022-02-08 02:48:40,367] {logging_mixin.py:104} INFO - [2022-02-08 02:48:40,367] {timeout.py:36} ERROR - Process timed out, PID: 38
+[2022-02-08 02:48:47,686] {logging_mixin.py:104} INFO - [2022-02-08 02:48:42,007] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/geanrate_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/geanrate_data.py", line 8, in <module>
+    import pandas as pd
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/__init__.py", line 30, in <module>
+    from pandas._libs import hashtable as _hashtable, lib as _lib, tslib as _tslib
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/_libs/__init__.py", line 13, in <module>
+    from pandas._libs.interval import Interval
+  File "pandas/_libs/interval.pyx", line 1, in init pandas._libs.interval
+  File "pandas/_libs/hashtable.pyx", line 1, in init pandas._libs.hashtable
+  File "pandas/_libs/missing.pyx", line 1, in init pandas._libs.missing
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/_libs/tslibs/__init__.py", line 30, in <module>
+    from .conversion import OutOfBoundsTimedelta, localize_pydatetime
+  File "pandas/_libs/tslibs/conversion.pyx", line 58, in init pandas._libs.tslibs.conversion
+  File "pandas/_libs/tslibs/parsing.pyx", line 1, in init pandas._libs.tslibs.parsing
+  File "pandas/_libs/tslibs/offsets.pyx", line 1, in init pandas._libs.tslibs.offsets
+  File "pandas/_libs/tslibs/timestamps.pyx", line 47, in init pandas._libs.tslibs.timestamps
+  File "pandas/_libs/tslibs/fields.pyx", line 40, in init pandas._libs.tslibs.fields
+  File "pandas/_libs/tslibs/strptime.pyx", line 627, in init pandas._libs.tslibs.strptime
+  File "pandas/_libs/tslibs/strptime.pyx", line 532, in pandas._libs.tslibs.strptime.TimeRE.__init__
+  File "pandas/_libs/tslibs/strptime.pyx", line 413, in pandas._libs.tslibs.strptime.LocaleTime.__init__
+  File "pandas/_libs/tslibs/strptime.pyx", line 364, in pandas._libs.tslibs.strptime._getlang
+  File "/usr/local/lib/python3.6/locale.py", line 565, in getlocale
+    def getlocale(category=LC_CTYPE):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/timeout.py", line 37, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /opt/airflow/dags/geanrate_data.py after 30.0s, PID: 38
+[2022-02-08 02:48:47,725] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/geanrate_data.py
+[2022-02-08 02:48:51,469] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/geanrate_data.py took 46.724 seconds
+[2022-02-08 02:49:21,695] {scheduler_job.py:182} INFO - Started process (PID=39) to work on /opt/airflow/dags/geanrate_data.py
+[2022-02-08 02:49:21,696] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/geanrate_data.py for tasks to queue
+[2022-02-08 02:49:21,697] {logging_mixin.py:104} INFO - [2022-02-08 02:49:21,697] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/geanrate_data.py
+[2022-02-08 02:49:48,525] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2022-02-08 02:49:57,709] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['generate_data']) retrieved from /opt/airflow/dags/geanrate_data.py
+[2022-02-08 02:50:04,581] {logging_mixin.py:104} INFO - [2022-02-08 02:50:04,577] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-02-08 02:50:05,542] {logging_mixin.py:104} INFO - [2022-02-08 02:50:05,542] {dag.py:2273} INFO - Setting next_dagrun for generate_data to 2022-02-08 00:00:00+00:00
+[2022-02-08 02:50:06,409] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/geanrate_data.py took 44.717 seconds
+[2022-02-08 02:50:37,024] {scheduler_job.py:182} INFO - Started process (PID=40) to work on /opt/airflow/dags/geanrate_data.py
+[2022-02-08 02:50:37,026] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/geanrate_data.py for tasks to queue
+[2022-02-08 02:50:37,028] {logging_mixin.py:104} INFO - [2022-02-08 02:50:37,028] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/geanrate_data.py
+[2022-02-08 02:51:08,122] {logging_mixin.py:104} INFO - [2022-02-08 02:51:08,122] {timeout.py:36} ERROR - Process timed out, PID: 40
+[2022-02-08 02:51:09,502] {logging_mixin.py:104} INFO - [2022-02-08 02:51:08,123] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/geanrate_data.py
+Traceback (most recent call last):
+  File "<frozen importlib._bootstrap_external>", line 88, in _path_is_mode_type
+  File "<frozen importlib._bootstrap_external>", line 82, in _path_stat
+FileNotFoundError: [Errno 2] No such file or directory: '/home/airflow/.local/lib/python3.6/site-packages/pandas/io/formats/__init__.cpython-36m-x86_64-linux-gnu.so'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/geanrate_data.py", line 8, in <module>
+    import pandas as pd
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/__init__.py", line 52, in <module>
+    from pandas.core.api import (
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/core/api.py", line 15, in <module>
+    from pandas.core.arrays import Categorical
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/core/arrays/__init__.py", line 7, in <module>
+    from pandas.core.arrays.categorical import Categorical
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/core/arrays/categorical.py", line 62, in <module>
+    from pandas.io.formats import console
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 951, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 894, in _find_spec
+  File "<frozen importlib._bootstrap_external>", line 1157, in find_spec
+  File "<frozen importlib._bootstrap_external>", line 1129, in _get_spec
+  File "<frozen importlib._bootstrap_external>", line 1260, in find_spec
+  File "<frozen importlib._bootstrap_external>", line 96, in _path_isfile
+  File "<frozen importlib._bootstrap_external>", line 88, in _path_is_mode_type
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/timeout.py", line 37, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /opt/airflow/dags/geanrate_data.py after 30.0s, PID: 40
+[2022-02-08 02:51:09,506] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/geanrate_data.py
+[2022-02-08 02:51:10,025] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/geanrate_data.py took 33.073 seconds
+[2022-02-08 02:51:40,214] {scheduler_job.py:182} INFO - Started process (PID=41) to work on /opt/airflow/dags/geanrate_data.py
+[2022-02-08 02:51:40,216] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/geanrate_data.py for tasks to queue
+[2022-02-08 02:51:40,217] {logging_mixin.py:104} INFO - [2022-02-08 02:51:40,216] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/geanrate_data.py
+[2022-02-08 02:52:12,685] {logging_mixin.py:104} INFO - [2022-02-08 02:52:12,684] {timeout.py:36} ERROR - Process timed out, PID: 41
+[2022-02-08 02:52:14,716] {logging_mixin.py:104} INFO - [2022-02-08 02:52:13,411] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/geanrate_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/geanrate_data.py", line 8, in <module>
+    import pandas as pd
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/__init__.py", line 30, in <module>
+    from pandas._libs import hashtable as _hashtable, lib as _lib, tslib as _tslib
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/_libs/__init__.py", line 13, in <module>
+    from pandas._libs.interval import Interval
+  File "pandas/_libs/interval.pyx", line 1, in init pandas._libs.interval
+  File "pandas/_libs/hashtable.pyx", line 1, in init pandas._libs.hashtable
+  File "<frozen importlib._bootstrap>", line 416, in parent
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/timeout.py", line 37, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /opt/airflow/dags/geanrate_data.py after 30.0s, PID: 41
+[2022-02-08 02:52:14,723] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/geanrate_data.py
+[2022-02-08 02:52:15,319] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/geanrate_data.py took 35.120 seconds
+[2022-02-08 02:52:47,986] {scheduler_job.py:182} INFO - Started process (PID=42) to work on /opt/airflow/dags/geanrate_data.py
+[2022-02-08 02:52:48,078] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/geanrate_data.py for tasks to queue
+[2022-02-08 02:52:48,079] {logging_mixin.py:104} INFO - [2022-02-08 02:52:48,079] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/geanrate_data.py
+[2022-02-08 02:53:15,451] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2022-02-08 02:53:16,190] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['generate_data']) retrieved from /opt/airflow/dags/geanrate_data.py
+[2022-02-08 02:53:16,475] {logging_mixin.py:104} INFO - [2022-02-08 02:53:16,475] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-02-08 02:53:16,529] {logging_mixin.py:104} INFO - [2022-02-08 02:53:16,529] {dag.py:2273} INFO - Setting next_dagrun for generate_data to 2022-02-08 00:00:00+00:00
+[2022-02-08 02:53:16,689] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/geanrate_data.py took 29.377 seconds
+[2022-02-08 02:53:47,507] {scheduler_job.py:182} INFO - Started process (PID=43) to work on /opt/airflow/dags/geanrate_data.py
+[2022-02-08 02:53:47,508] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/geanrate_data.py for tasks to queue
+[2022-02-08 02:53:47,509] {logging_mixin.py:104} INFO - [2022-02-08 02:53:47,509] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/geanrate_data.py
+[2022-02-08 02:54:19,985] {logging_mixin.py:104} INFO - [2022-02-08 02:54:19,972] {timeout.py:36} ERROR - Process timed out, PID: 43
+[2022-02-08 02:54:25,162] {logging_mixin.py:104} INFO - [2022-02-08 02:54:21,187] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/geanrate_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/geanrate_data.py", line 8, in <module>
+    import pandas as pd
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/__init__.py", line 30, in <module>
+    from pandas._libs import hashtable as _hashtable, lib as _lib, tslib as _tslib
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/_libs/__init__.py", line 13, in <module>
+    from pandas._libs.interval import Interval
+  File "pandas/_libs/interval.pyx", line 1, in init pandas._libs.interval
+  File "pandas/_libs/hashtable.pyx", line 1, in init pandas._libs.hashtable
+  File "pandas/_libs/missing.pyx", line 1, in init pandas._libs.missing
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/_libs/tslibs/__init__.py", line 30, in <module>
+    from .conversion import OutOfBoundsTimedelta, localize_pydatetime
+  File "pandas/_libs/tslibs/conversion.pyx", line 58, in init pandas._libs.tslibs.conversion
+  File "pandas/_libs/tslibs/parsing.pyx", line 1, in init pandas._libs.tslibs.parsing
+  File "pandas/_libs/tslibs/offsets.pyx", line 1, in init pandas._libs.tslibs.offsets
+  File "pandas/_libs/tslibs/timestamps.pyx", line 47, in init pandas._libs.tslibs.timestamps
+  File "<frozen importlib._bootstrap>", line 416, in parent
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/timeout.py", line 37, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /opt/airflow/dags/geanrate_data.py after 30.0s, PID: 43
+[2022-02-08 02:54:25,225] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/geanrate_data.py
+[2022-02-08 02:54:29,907] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/geanrate_data.py took 42.418 seconds
+[2022-02-08 02:55:00,525] {scheduler_job.py:182} INFO - Started process (PID=44) to work on /opt/airflow/dags/geanrate_data.py
+[2022-02-08 02:55:00,527] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/geanrate_data.py for tasks to queue
+[2022-02-08 02:55:00,528] {logging_mixin.py:104} INFO - [2022-02-08 02:55:00,527] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/geanrate_data.py
+[2022-02-08 02:55:22,501] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2022-02-08 02:55:24,372] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['generate_data']) retrieved from /opt/airflow/dags/geanrate_data.py
+[2022-02-08 02:55:29,175] {logging_mixin.py:104} INFO - [2022-02-08 02:55:29,175] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-02-08 02:55:29,264] {logging_mixin.py:104} INFO - [2022-02-08 02:55:29,264] {dag.py:2273} INFO - Setting next_dagrun for generate_data to 2022-02-08 00:00:00+00:00
+[2022-02-08 02:55:29,681] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/geanrate_data.py took 29.173 seconds
+[2022-02-08 02:56:00,649] {scheduler_job.py:182} INFO - Started process (PID=45) to work on /opt/airflow/dags/geanrate_data.py
+[2022-02-08 02:56:00,651] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/geanrate_data.py for tasks to queue
+[2022-02-08 02:56:00,652] {logging_mixin.py:104} INFO - [2022-02-08 02:56:00,652] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/geanrate_data.py
+[2022-02-08 02:56:31,902] {logging_mixin.py:104} INFO - [2022-02-08 02:56:31,900] {timeout.py:36} ERROR - Process timed out, PID: 45
+[2022-02-08 02:56:35,457] {logging_mixin.py:104} INFO - [2022-02-08 02:56:32,347] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/geanrate_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/geanrate_data.py", line 8, in <module>
+    import pandas as pd
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/__init__.py", line 30, in <module>
+    from pandas._libs import hashtable as _hashtable, lib as _lib, tslib as _tslib
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/_libs/__init__.py", line 13, in <module>
+    from pandas._libs.interval import Interval
+  File "pandas/_libs/interval.pyx", line 1, in init pandas._libs.interval
+  File "pandas/_libs/hashtable.pyx", line 1, in init pandas._libs.hashtable
+  File "pandas/_libs/missing.pyx", line 1, in init pandas._libs.missing
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/_libs/tslibs/__init__.py", line 30, in <module>
+    from .conversion import OutOfBoundsTimedelta, localize_pydatetime
+  File "pandas/_libs/tslibs/conversion.pyx", line 58, in init pandas._libs.tslibs.conversion
+  File "pandas/_libs/tslibs/parsing.pyx", line 1, in init pandas._libs.tslibs.parsing
+  File "<frozen importlib._bootstrap>", line 416, in parent
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/timeout.py", line 37, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /opt/airflow/dags/geanrate_data.py after 30.0s, PID: 45
+[2022-02-08 02:56:35,694] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/geanrate_data.py
+[2022-02-08 02:56:39,287] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/geanrate_data.py took 38.657 seconds
+[2022-02-08 02:57:10,676] {scheduler_job.py:182} INFO - Started process (PID=46) to work on /opt/airflow/dags/geanrate_data.py
+[2022-02-08 02:57:10,678] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/geanrate_data.py for tasks to queue
+[2022-02-08 02:57:10,679] {logging_mixin.py:104} INFO - [2022-02-08 02:57:10,679] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/geanrate_data.py
+[2022-02-08 02:57:31,054] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2022-02-08 02:57:36,228] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['generate_data']) retrieved from /opt/airflow/dags/geanrate_data.py
+[2022-02-08 02:57:39,019] {logging_mixin.py:104} INFO - [2022-02-08 02:57:39,019] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-02-08 02:57:39,085] {logging_mixin.py:104} INFO - [2022-02-08 02:57:39,085] {dag.py:2273} INFO - Setting next_dagrun for generate_data to 2022-02-08 00:00:00+00:00
+[2022-02-08 02:57:39,305] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/geanrate_data.py took 28.699 seconds
+[2022-02-08 02:58:10,578] {scheduler_job.py:182} INFO - Started process (PID=47) to work on /opt/airflow/dags/geanrate_data.py
+[2022-02-08 02:58:10,579] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/geanrate_data.py for tasks to queue
+[2022-02-08 02:58:10,580] {logging_mixin.py:104} INFO - [2022-02-08 02:58:10,580] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/geanrate_data.py
+[2022-02-08 02:58:42,112] {logging_mixin.py:104} INFO - [2022-02-08 02:58:42,097] {timeout.py:36} ERROR - Process timed out, PID: 47
+[2022-02-08 02:58:45,003] {logging_mixin.py:104} INFO - [2022-02-08 02:58:42,555] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/geanrate_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/geanrate_data.py", line 8, in <module>
+    import pandas as pd
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/__init__.py", line 30, in <module>
+    from pandas._libs import hashtable as _hashtable, lib as _lib, tslib as _tslib
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/_libs/__init__.py", line 13, in <module>
+    from pandas._libs.interval import Interval
+  File "pandas/_libs/interval.pyx", line 1, in init pandas._libs.interval
+  File "pandas/_libs/hashtable.pyx", line 1, in init pandas._libs.hashtable
+  File "pandas/_libs/missing.pyx", line 1, in init pandas._libs.missing
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/_libs/tslibs/__init__.py", line 30, in <module>
+    from .conversion import OutOfBoundsTimedelta, localize_pydatetime
+  File "pandas/_libs/tslibs/conversion.pyx", line 1, in init pandas._libs.tslibs.conversion
+  File "<frozen importlib._bootstrap>", line 416, in parent
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/timeout.py", line 37, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /opt/airflow/dags/geanrate_data.py after 30.0s, PID: 47
+[2022-02-08 02:58:45,064] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/geanrate_data.py
+[2022-02-08 02:58:50,339] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/geanrate_data.py took 39.951 seconds
+[2022-02-08 02:59:21,476] {scheduler_job.py:182} INFO - Started process (PID=48) to work on /opt/airflow/dags/geanrate_data.py
+[2022-02-08 02:59:21,478] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/geanrate_data.py for tasks to queue
+[2022-02-08 02:59:21,480] {logging_mixin.py:104} INFO - [2022-02-08 02:59:21,480] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/geanrate_data.py
+[2022-02-08 02:59:52,057] {logging_mixin.py:104} INFO - [2022-02-08 02:59:52,016] {timeout.py:36} ERROR - Process timed out, PID: 48
+[2022-02-08 02:59:53,947] {logging_mixin.py:104} INFO - [2022-02-08 02:59:52,058] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/geanrate_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/geanrate_data.py", line 8, in <module>
+    import pandas as pd
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/__init__.py", line 52, in <module>
+    from pandas.core.api import (
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/core/api.py", line 15, in <module>
+    from pandas.core.arrays import Categorical
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/core/arrays/__init__.py", line 1, in <module>
+    from pandas.core.arrays.base import (
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/core/arrays/base.py", line 31, in <module>
+    from pandas.core.sorting import nargminmax, nargsort
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 779, in get_code
+  File "<frozen importlib._bootstrap_external>", line 487, in _compile_bytecode
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/timeout.py", line 37, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /opt/airflow/dags/geanrate_data.py after 30.0s, PID: 48
+[2022-02-08 02:59:53,965] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/geanrate_data.py
+[2022-02-08 02:59:59,851] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/geanrate_data.py took 38.437 seconds
+[2022-02-08 03:00:31,454] {scheduler_job.py:182} INFO - Started process (PID=49) to work on /opt/airflow/dags/geanrate_data.py
+[2022-02-08 03:00:31,466] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/geanrate_data.py for tasks to queue
+[2022-02-08 03:00:31,468] {logging_mixin.py:104} INFO - [2022-02-08 03:00:31,468] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/geanrate_data.py
+[2022-02-08 03:01:01,513] {logging_mixin.py:104} INFO - [2022-02-08 03:01:01,513] {timeout.py:36} ERROR - Process timed out, PID: 49
+[2022-02-08 03:01:03,312] {logging_mixin.py:104} INFO - [2022-02-08 03:01:01,513] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/geanrate_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/geanrate_data.py", line 68, in <module>
+    dag=dag
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py", line 89, in __call__
+    obj: BaseOperator = type.__call__(cls, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py", line 94, in wrapper
+    result = func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 98, in __init__
+    stacklevel=2,
+  File "/usr/local/lib/python3.6/warnings.py", line 99, in _showwarnmsg
+    msg.file, msg.line)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/settings.py", line 112, in custom_show_warning
+    from rich.markup import escape
+  File "/home/airflow/.local/lib/python3.6/site-packages/rich/markup.py", line 6, in <module>
+    from .text import Span, Text
+  File "/home/airflow/.local/lib/python3.6/site-packages/rich/text.py", line 19, in <module>
+    from ._loop import loop_last
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 764, in get_code
+  File "<frozen importlib._bootstrap_external>", line 833, in get_data
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/timeout.py", line 37, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /opt/airflow/dags/geanrate_data.py after 30.0s, PID: 49
+[2022-02-08 03:01:03,352] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/geanrate_data.py
+[2022-02-08 03:01:06,804] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/geanrate_data.py took 35.426 seconds
+[2022-02-08 03:01:36,980] {scheduler_job.py:182} INFO - Started process (PID=50) to work on /opt/airflow/dags/geanrate_data.py
+[2022-02-08 03:01:36,981] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/geanrate_data.py for tasks to queue
+[2022-02-08 03:01:36,983] {logging_mixin.py:104} INFO - [2022-02-08 03:01:36,982] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/geanrate_data.py
+[2022-02-08 03:01:48,952] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2022-02-08 03:01:49,764] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['generate_data']) retrieved from /opt/airflow/dags/geanrate_data.py
+[2022-02-08 03:01:49,877] {logging_mixin.py:104} INFO - [2022-02-08 03:01:49,877] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-02-08 03:01:49,931] {logging_mixin.py:104} INFO - [2022-02-08 03:01:49,931] {dag.py:2273} INFO - Setting next_dagrun for generate_data to 2022-02-08 00:00:00+00:00
+[2022-02-08 03:01:50,138] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/geanrate_data.py took 13.161 seconds
+[2022-02-08 03:02:20,909] {scheduler_job.py:182} INFO - Started process (PID=51) to work on /opt/airflow/dags/geanrate_data.py
+[2022-02-08 03:02:21,908] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/geanrate_data.py for tasks to queue
+[2022-02-08 03:02:21,921] {logging_mixin.py:104} INFO - [2022-02-08 03:02:21,920] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/geanrate_data.py
+[2022-02-08 03:02:24,484] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2022-02-08 03:02:24,496] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['generate_data']) retrieved from /opt/airflow/dags/geanrate_data.py
+[2022-02-08 03:02:24,642] {logging_mixin.py:104} INFO - [2022-02-08 03:02:24,642] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-02-08 03:02:24,661] {logging_mixin.py:104} INFO - [2022-02-08 03:02:24,661] {dag.py:2273} INFO - Setting next_dagrun for generate_data to 2022-02-08 00:00:00+00:00
+[2022-02-08 03:02:24,735] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/geanrate_data.py took 3.901 seconds
+[2022-02-08 03:02:55,104] {scheduler_job.py:182} INFO - Started process (PID=52) to work on /opt/airflow/dags/geanrate_data.py
+[2022-02-08 03:02:55,105] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/geanrate_data.py for tasks to queue
+[2022-02-08 03:02:55,106] {logging_mixin.py:104} INFO - [2022-02-08 03:02:55,106] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/geanrate_data.py
+[2022-02-08 03:02:56,106] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2022-02-08 03:02:56,115] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['generate_data']) retrieved from /opt/airflow/dags/geanrate_data.py
+[2022-02-08 03:02:56,132] {logging_mixin.py:104} INFO - [2022-02-08 03:02:56,131] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-02-08 03:02:56,150] {logging_mixin.py:104} INFO - [2022-02-08 03:02:56,150] {dag.py:2273} INFO - Setting next_dagrun for generate_data to 2022-02-08 00:00:00+00:00
+[2022-02-08 03:02:56,238] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/geanrate_data.py took 1.137 seconds
+[2022-02-08 03:03:26,303] {scheduler_job.py:182} INFO - Started process (PID=53) to work on /opt/airflow/dags/geanrate_data.py
+[2022-02-08 03:03:26,306] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/geanrate_data.py for tasks to queue
+[2022-02-08 03:03:26,307] {logging_mixin.py:104} INFO - [2022-02-08 03:03:26,307] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/geanrate_data.py
+[2022-02-08 03:03:27,161] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2022-02-08 03:03:27,175] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['generate_data']) retrieved from /opt/airflow/dags/geanrate_data.py
+[2022-02-08 03:03:28,585] {logging_mixin.py:104} INFO - [2022-02-08 03:03:28,584] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-02-08 03:03:28,600] {logging_mixin.py:104} INFO - [2022-02-08 03:03:28,600] {dag.py:2273} INFO - Setting next_dagrun for generate_data to 2022-02-08 00:00:00+00:00
+[2022-02-08 03:03:28,748] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/geanrate_data.py took 2.450 seconds
+[2022-02-08 03:03:58,820] {scheduler_job.py:182} INFO - Started process (PID=54) to work on /opt/airflow/dags/geanrate_data.py
+[2022-02-08 03:03:58,823] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/geanrate_data.py for tasks to queue
+[2022-02-08 03:03:58,824] {logging_mixin.py:104} INFO - [2022-02-08 03:03:58,824] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/geanrate_data.py
+[2022-02-08 03:04:12,865] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2022-02-08 03:04:13,794] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['generate_data']) retrieved from /opt/airflow/dags/geanrate_data.py
+[2022-02-08 03:04:14,189] {logging_mixin.py:104} INFO - [2022-02-08 03:04:14,189] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-02-08 03:04:14,204] {logging_mixin.py:104} INFO - [2022-02-08 03:04:14,204] {dag.py:2273} INFO - Setting next_dagrun for generate_data to 2022-02-08 00:00:00+00:00
+[2022-02-08 03:04:14,258] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/geanrate_data.py took 15.442 seconds
+[2022-02-08 03:04:44,670] {scheduler_job.py:182} INFO - Started process (PID=55) to work on /opt/airflow/dags/geanrate_data.py
+[2022-02-08 03:04:44,672] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/geanrate_data.py for tasks to queue
+[2022-02-08 03:04:44,672] {logging_mixin.py:104} INFO - [2022-02-08 03:04:44,672] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/geanrate_data.py
+[2022-02-08 03:05:16,146] {logging_mixin.py:104} INFO - [2022-02-08 03:05:16,146] {timeout.py:36} ERROR - Process timed out, PID: 55
+[2022-02-08 03:05:19,362] {logging_mixin.py:104} INFO - [2022-02-08 03:05:16,147] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/geanrate_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/geanrate_data.py", line 8, in <module>
+    import pandas as pd
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/__init__.py", line 52, in <module>
+    from pandas.core.api import (
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/core/api.py", line 15, in <module>
+    from pandas.core.arrays import Categorical
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/core/arrays/__init__.py", line 10, in <module>
+    from pandas.core.arrays.interval import IntervalArray
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/core/arrays/interval.py", line 43, in <module>
+    from pandas.core.indexes.base import ensure_index
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/core/indexes/base.py", line 19, in <module>
+    from pandas._libs import algos as libalgos, index as libindex, lib
+  File "<frozen importlib._bootstrap>", line 416, in parent
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/timeout.py", line 37, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /opt/airflow/dags/geanrate_data.py after 30.0s, PID: 55
+[2022-02-08 03:05:19,381] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/geanrate_data.py
+[2022-02-08 03:05:21,712] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/geanrate_data.py took 37.091 seconds
+[2022-02-08 03:05:52,514] {scheduler_job.py:182} INFO - Started process (PID=56) to work on /opt/airflow/dags/geanrate_data.py
+[2022-02-08 03:05:52,516] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/geanrate_data.py for tasks to queue
+[2022-02-08 03:05:52,516] {logging_mixin.py:104} INFO - [2022-02-08 03:05:52,516] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/geanrate_data.py
+[2022-02-08 03:06:12,782] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2022-02-08 03:06:13,301] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['generate_data']) retrieved from /opt/airflow/dags/geanrate_data.py
+[2022-02-08 03:06:14,465] {logging_mixin.py:104} INFO - [2022-02-08 03:06:14,465] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-02-08 03:06:14,521] {logging_mixin.py:104} INFO - [2022-02-08 03:06:14,521] {dag.py:2273} INFO - Setting next_dagrun for generate_data to 2022-02-08 00:00:00+00:00
+[2022-02-08 03:06:14,785] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/geanrate_data.py took 22.533 seconds
